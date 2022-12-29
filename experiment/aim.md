@@ -1,1 +1,1 @@
-### Aim of the experiment
+To understand the characteristics of tuned vibration absorber under variable frequency excitation.
