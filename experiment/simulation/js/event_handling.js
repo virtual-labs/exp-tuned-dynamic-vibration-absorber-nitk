@@ -20,17 +20,14 @@ function handleEvents() {
         }
     }
     if (button2.in(mouseX, mouseY) && page1) {
+        runPage2();
         position_graph1.delete();
         position_graph2.delete();
         page1 = false;
         page2 = true;
-
-        //magFac1.initialise();
-        
-
-      
     }
     if (button3.in(mouseX, mouseY) && page2) {
+        runPage1();
         position_graph1.delete();
         position_graph2.delete();
         page1 = true;
@@ -40,6 +37,7 @@ function handleEvents() {
     }
 
     if (button4.in(mouseX, mouseY) && page2){
+        runPage3();
         position_graph1.delete();
         position_graph2.delete();
         page3 = true;

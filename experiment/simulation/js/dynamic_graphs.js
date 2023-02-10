@@ -54,7 +54,9 @@ class DynamicGraph  {
             strokeWeight(1);
             noFill();
            for (let i = 0; i< this.graphs[n].length ; i++) {
+                    
                     vertex(this.x + this.graphs[n][i][0], this.y - this.graphs[n][i][1]);
+                    
             }
             endShape();       
         }

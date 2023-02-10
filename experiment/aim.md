@@ -1,1 +1,1 @@
-To understand the characteristics of tuned vibration absorber under variable frequency excitation.
+To understand the response characteristics of tuned vibration absorber under variable frequency excitation.
