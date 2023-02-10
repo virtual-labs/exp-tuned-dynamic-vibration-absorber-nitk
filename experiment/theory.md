@@ -1,6 +1,6 @@
-A vibration absorber is a mechanical devise which is tuned to reduce or eliminate undesired vibrations, at least it must shift the natural frequencies from the excitation frequency.
+A vibration absorber is a mechanical device which is tuned to reduce or eliminate undesired vibrations, it must shift the natural frequencies, away from the excitation frequency. As shown in Fig. 1 (ss rao, frequency response)
 <br>
-A simple mass and stiffness contributes in making a tuned vibration absorber. This is attached to the main device, which requires protection from unwanted vibration. The attached mass along with the device acts a two degree of freedom system, having two natural frequencies. General applications include reciprocating tools such as saws, drills, rotary hammers which requires to balance the reciprocating force. Fig. 1 shows a schematic representation of a undamped dynamic vibration absorber.
+An additional spring mass system is attached to the main spring mass system, so that the resonance of the original system will not occur. The addition of spring mass system results in a two degree of freedom system, having two natural frequencies. General applications include reciprocating tools such as saws, drills, rotary hammers which requires to balance the reciprocating force. Fig. 1 shows a schematic representation of an undamped dynamic vibration absorber.
 
  <center>
 

@@ -8,7 +8,7 @@
     textSize(30);
     textFont("Comic Sans MS");
     fill(0);
-    text('Tuned Vibration Absorber',280, 50);
+    text('Tuned Dynamic Vibration Absorber',200, 50);
     
 
     textSize(16);
@@ -33,17 +33,10 @@
 
     spring1.initialise(F0.inp,w.inp,m1.inp,k1.inp,m2.inp , k2.inp , mu.inp);
     spring1.update(t,factor)
-    
-   
-
-        
     textFont("Comic Sans MS");
     textSize(20);
     text("MODE SHAPE", 215, 150);
     textSize(15);
-
-
-    
 
     if(abs(spring1.w-spring1.w1)<=0.5 || abs(spring1.w - spring1.w2)<=0.5)
     {

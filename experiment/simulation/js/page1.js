@@ -8,7 +8,7 @@ function runPage1() {
     push();
     textSize(30);
     textFont("Comic Sans MS");
-    text('Tuned Vibration Absorber',280, 50);
+    text('Tuned Dynamic Vibration Absorber',200, 50);
     //text('Forced Vibration with rotating unbalance' , 200 , 80);
 
     textSize(16);
@@ -33,11 +33,11 @@ function runPage1() {
     spring1.initialise(F0.inp,w.inp,m1.inp,k1.inp,m2.inp , k2.inp  , mu.inp);
     spring1.update(t, factor);
     spring1.show(0, 1, 0);
-
-    text("k2" , 550-20 , 370 + spring1.y2);
-    text("k1" , 550-10 , 470 + spring1.y1);
-    text("m2" , 350 , 320 + spring1.y2);
-    text("m1" , 350 , 420 + spring1.y1);
+    text("m1" , 350 , 200);
+    text("k1" , 550-20 , 470 );
+    text("k2" , 550-10 , 570 );
+    text("m1" , 350 , 320+150 );
+    text("m2" , 350 , 420 +150);
 
     position_graph1.update(spring1.y1);
     position_graph1.draw(255, 0,0)
@@ -45,7 +45,13 @@ function runPage1() {
     position_graph2.update(spring1.y2);
     position_graph2.draw(255, 0, 0)
 
+    position_graph3.update(spring1.y3);
+    position_graph3.draw(255, 0,0)
+
     strokeWeight(0)
+
+    text('Machine with  an absorber' , 360 , 340);
+    text('Machine without an absorber' , 360 , 130);
 
     textSize(16);
     textFont("Comic Sans MS")
