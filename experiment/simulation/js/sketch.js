@@ -83,7 +83,7 @@ function setup() {
     //magFac = new DynamicGraph(125, 325, 230, 290, "Magnification Factor", "n", 0, 2.5, 0, 7.5, System.mag_func);
     //phaseAng = new DynamicGraph(125, 495, 150, 290, "Phase Angle", "n", 0, 2.5, 0, 180, System.phase_func);
 
-    F0 = new NumberInput(700, 180+20, "F(N)", 10,19, 15, 1,1, true);
+    F0 = new NumberInput(700, 180+20, "F(N)", 10,15, 15, 1,1, true);
     w= new NumberInput(700, 230+20, "ω(rad/sec)", 1, 8.5, 2.8, 0.01,0.01, true);
     mu = new NumberInput(700, 270+30, "mu (ratio)", 0.05, 0.25, 0.05, 100,1, true);
   
