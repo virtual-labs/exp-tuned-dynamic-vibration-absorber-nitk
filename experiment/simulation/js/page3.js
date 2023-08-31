@@ -30,13 +30,13 @@
    // text("Ω1" , 70+ 100*spring1.om1 +50, 450+10);
     strokeWeight(10);
     stroke('blue');
-    point(70+ 100*spring1.om1 +50, 450+10);
+    point(70+ 100*spring1.om1 +50, 450-2);
     strokeWeight(10);
     stroke('green');
-    point(70+ 100*spring1.om2+50 , 440);
+    point(70+ 100*spring1.om2+50 , 448);
     strokeWeight(10);
     stroke('red');
-    point(120 +  spring1.w1*100+50 , 460);
+    point(120 +  spring1.w1*100+50 , 448);
  
 
     let sub = 60;
@@ -86,8 +86,7 @@
     text('Ω2' , 470 , 318+sum);
     strokeWeight(0);
 
-    
-
+ 
 
 
 
