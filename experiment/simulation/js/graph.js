@@ -25,6 +25,7 @@ class Graph {
     }
 
     draw(r, g, b)  {
+        
         push();
         let temp_y=[]; 
         beginShape();
@@ -36,7 +37,7 @@ class Graph {
      //  temp_y= this.wave;
         let flag = false;
         let flag2 = false;
-        let cont = 20
+        let cont = 20;
        for (let i = 0; i < this.wave.length; i++) {
         if (abs(this.wave[i])/this.h>0.75){
            if(flag==false)
