@@ -72,7 +72,7 @@ initialise() {
 
         fill(0, 0, 0, 255);
         strokeWeight(0);
-        textFont("Comic Sans MS")
+        textFont("Nunito")
         textSize(16);
         text(this.label, this.x - 10, this.y - 10);
 

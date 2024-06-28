@@ -1,22 +1,24 @@
-Given Data:
+### Procedure
 
-a) m<sub>1</sub> = Mass of the machine <br>
-b) k<sub>1</sub> = Stiffness of the machine <br>
-c) m<sub>2</sub> = Mass of the absorber <br>
-d) k<sub>2</sub> = Stiffness of the absorber <br>
+<div style="text-align:left">
+  Click on the Simulation icon <img src="images/simulation.png" alt="Alt text" style="height:80px; width:80px;">  to view the simulation. 
 
-A tuned dynamic vibration absorber is designed to isolate the fundamental natural frequency of the machine away from the excitation frequency. Therefore, for a machine with mass m<sub>1</sub> and stifness k<sub>1</sub>  there exist a vibration absorber of mass m<sub>2</sub> and stifness k<sub>2</sub>. 
+   ![Alt text](images/Screen11.png)
+   
+   In order to view the variable section click on the Variable icon. <img src="images/var1.png" alt="Alt text" style="height:80px; width:80px;">
 
-Steps to use the simulator:
-1. The simulation will open with default values to show the behavior of the system for that input. The user can change it accordingly, to observe different responses.
+   ![Alt text](images/variable11.png)
 
+   Click on Play icon <img src="images/play1.png" alt="Alt text" style="height:80px; width:80px;"> to run the simulation and click on Pause icon <img src="images/pause.png" alt="Alt text" style="height:80px; width:80px;"> to stop it.
 
-![](images/1.png)
+   <!-- Click on the Next icon  <img src="images/next2.png" alt="Alt text" style="height:80px; width:80px;"> to go further.  
 
+   ![Alt text](images/screen2.png) -->
 
+   Click on the Next or Prev icon<img src="images/prenex.png" alt="Alt text" style="height:80px; width:80px;"> to cycle through different pages. 
 
-For a set of mass m<sub>1</sub>, m<sub>2</sub> and stiffness k<sub>1</sub> and k<sub>2</sub>, natural frequencies &omega;<sub>1</sub>and &omega;<sub>2</sub> are displayed. Adjusting &omega; to either of the natural frequencies will show resonance. 
-
-2. Clicking on the graph button will show the plots of frequency ratio versus transmissibility of mass m<sub>1</sub> and m<sub>2</sub>. 
-
-![](images/2.png)
+   ![Alt text](images/screen21.png)
+   
+click on the result icon to view the result.<img src="images/result.png" alt="Alt text" style="height:80px; width:80px;"> 
+![Alt text](images/result11.png)
+</div>

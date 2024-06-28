@@ -24,7 +24,7 @@ class System {
     this.calcu1 = 0;
     this.calcu2 = 0;
     this.xm = 0;
-    this.mu = 0;
+    // this.mu = 0;
     this.x1m = 0 ;
     this.om1w1 = 0;
     this.term1a = 0;
@@ -40,7 +40,7 @@ class System {
     
   }
 
-  initialise(_F0, _w, _m1, _k1, _m2, _k2, _mu) {
+  initialise(_F0, _w, _m1, _k1, _m2, _k2) {
     //if(_w>3.8  && _w<4.1 || (_w> 2.4 && _w<=2.65) )_w= _w - 0.5
 
     this.F0 = _F0;
@@ -50,7 +50,7 @@ class System {
     this.k1 = _k1;
     this.m2 = _m2;
     this.k2 = _k2;
-    this.mu = _mu;
+    // this.mu = _mu;
     //this.m1 = this.m2/this.mu;
     //  this.k1 = this.mu*this.k2;
 
@@ -70,8 +70,8 @@ class System {
     this.om1w1 = Math.pow(this.om1w1 , 0.5);
     this.om2w2 = (this.term1a - Math.pow(this.term2b,0.5))/(this.term3c);
     this.om2w2 = Math.pow(this.om2w2 , 0.5);
-    console.log("the value of om1" , this.om1);
-    console.log("the value of om2" , this.om2);
+    // console.log("the value of om1" , this.om1);
+    // console.log("the value of om2" , this.om2);
     
     
   }
@@ -108,23 +108,27 @@ class System {
     let constant = 150;
 
     // spring
-    image(spr,this.x_equilibrium - wid / 2 + 10,constant + this.y_equilibrium+100 - 50-5 - 2 * hei + this.y2 - 15 - 10 - 7 + 27+18.5+20.5,wid,hei + this.y1 + 10);
+    image(spr,this.x_equilibrium - wid / 2 + 125,constant + this.y_equilibrium+100 - 220-5 - 2 * hei + this.y2 - 15 - 10 - 7 + 27+18.5+20.5,wid,hei + this.y1 + 10);
     fill(0, 0, 0);
     textSize(15);
     //text("K1",this.x_equilibrium - (wid/2)-30, constant+this.y_equilibrium -12.5 -(hei/2) +this.y1+10)
 
-    image(spr,this.x_equilibrium - wid / 2 - 10,constant + this.y_equilibrium+100-75-12.5 -25 -2 * hei -10 -5 -9 +20,wid,hei + this.y2 - 22);
-    image(spr,this.x_equilibrium - wid / 2 + 30,constant + this.y_equilibrium+100-75-12.5 -25 -2 * hei -10 -5 -9 +20,wid,hei + this.y2 - 22);
+    image(spr,this.x_equilibrium - wid / 2 - 10+105 ,constant + this.y_equilibrium+100-245-12.5 -25 -2 * hei -10 -5 -9 +20,wid,hei + this.y2 - 22);
+   
+    image(spr,this.x_equilibrium - wid / 2 + 155,constant + this.y_equilibrium+100-245-12.5 -25 -2 * hei -10 -5 -9 +20,wid,hei + this.y2 - 22);
+  
+    text("k1",this.x_equilibrium + 125+55,constant + this.y_equilibrium+30-170 - 2 * hei  + this.y2 +2+21-30)
+
+    text("k2", this.x_equilibrium + 125+55,constant + this.y_equilibrium+100 -220-5 - 2 * hei + this.y2+this.y1 - 15 - 10 - 7 + 27+90+35-30)
     //image(spr,this.x_equilibrium -(wid/2) ,this.y_equilibrium -(this.h/2) +this.y1 , this.width-20, this.h)
 
-    fill(0, 0, 0);
-    textSize(15);
+  
     //text("K2",this.x_equilibrium -(wid/2)-30, this.y_equilibrium -12.5-25 -(1.5*hei) + this.y2 +10)
 
     // base
     rectMode(CENTER);
     fill(0, 0, 0);
-    rect(this.x_equilibrium + 10,constant + this.y_equilibrium-250+100,this.width + 40,this.h - 20);
+    rect(this.x_equilibrium + 125,constant + this.y_equilibrium-325,this.width + 40,this.h - 20);
 
     // mass
     rect();
@@ -135,23 +139,28 @@ class System {
   
     rectMode(CENTER);
     fill(139, 69, 19);
-    rect(this.x_equilibrium + 10,constant + this.y_equilibrium+30 - 2 * hei  + this.y2 +2+21,this.width - 20 + 10 + 20,this.h + 25); // bottom mass
-    fill(105, 105, 0);
-    textSize(12);
-    //text("m1",this.x_equilibrium-5+10 ,-10+this.y_equilibrium -(this.h/2) -hei +this.y1 -(this.h/2))
+    rect(this.x_equilibrium + 125,constant + this.y_equilibrium+30-170 - 2 * hei  + this.y2 +2+21,this.width - 20 + 10 + 20,this.h + 25); // bottom mass
+    fill(255,255,255);
+    textSize(13);
+    text("m1",this.x_equilibrium + 125-5,constant + this.y_equilibrium+30-170 - 2 * hei  + this.y2 +2+21+3)
 
     
     rectMode(CENTER);
     fill(139, 69, 19);
     rect(
-      this.x_equilibrium + 10,
-      constant + this.y_equilibrium+100 - 50-5 - 2 * hei + this.y2+this.y1 - 15 - 10 - 7 + 27+90+35,
+      this.x_equilibrium + 125,
+      constant + this.y_equilibrium+100 -220-5 - 2 * hei + this.y2+this.y1 - 15 - 10 - 7 + 27+90+35,
       this.width - 20,
       this.h
     ); // top mass
+    fill(255, 255, 255);
+    textSize(13);
+    
+    text("m2", this.x_equilibrium + 125-5,
+      constant + this.y_equilibrium+100 -220-5 - 2 * hei + this.y2+this.y1 - 15 - 10 - 7 + 27+90+35+3)
     // text("m2",this.x_equilibrium-80,250+this.y_equilibrium -50 -(2*hei) + this.y2-5)
 
-    image(spr,this.x_equilibrium - wid / 2 + 10,constant + this.y_equilibrium-100-75 - 50-5 - 2 * hei - 15 - 10 - 7 + 27,wid,hei-20 + this.y2 + 10);
+    image(spr,this.x_equilibrium - wid / 2 + 125,constant + this.y_equilibrium-210-75 - 50-5 - 2 * hei - 15 - 10 - 7 + 27,wid,hei-20 + this.y2 + 10);
     fill(0, 0, 0);
     textSize(15);
 
@@ -159,12 +168,14 @@ class System {
 
     rectMode(CENTER);
     fill(0, 0, 0);
-    rect(this.x_equilibrium + 10,constant + this.y_equilibrium-250-100-25,this.width + 40,this.h - 20);
+    rect(this.x_equilibrium + 125,constant + this.y_equilibrium-250-145-90,this.width + 40,this.h - 20);
     fill(139, 69, 19);
-    rect(this.x_equilibrium + 10,constant + this.y_equilibrium-100-75 - 50-5 - 2 * hei - 15 - 10 - 7 + 27+hei-40 + this.y2 + 10+20+15,this.width - 20 + 10 + 20,this.h + 5);
+    rect(this.x_equilibrium + 125,constant + this.y_equilibrium-100-185 - 50-5 - 2 * hei - 15 - 10 - 7 + 27+hei-40 + this.y2 + 10+20+15,this.width - 20 + 10 + 20,this.h + 5);
     //this.y_equilibrium+100-250-25- 2 * hei + this.y2 + this.y1 +40
     fill(255, 255, 255);
-    textSize(12);
+    textSize(13);
+    
+    text("m1",this.x_equilibrium + 125-5,constant + this.y_equilibrium-100-185 - 50-5 - 2 * hei - 15 - 10 - 7 + 27+hei-40 + this.y2 + 10+20+15+3)
 
   /*
     rectMode(CENTER);
