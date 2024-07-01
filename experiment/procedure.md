@@ -17,8 +17,9 @@
 
    Click on the Next or Prev icon<img src="images/prenex.png" alt="Alt text" style="height:80px; width:80px;"> to cycle through different pages. 
 
-   ![Alt text](images/screen21.png)
+   ![Alt text](images/Screen21.png)
    
-click on the result icon to view the result.<img src="images/result.png" alt="Alt text" style="height:80px; width:80px;"> 
-![Alt text](images/result11.png)
+  click on the result icon to view the result.<img src="images/result.png" alt="Alt text" style="height:80px; width:80px;"> 
+
+  ![Alt text](images/result11.png)
 </div>
