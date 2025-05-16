@@ -73,9 +73,9 @@ function setup() {
 
     position_graph1 = new Graph(50, 100, 100, 220, "x1", "t");
 
-    position_graph2 = new Graph(50, 250, 100, 220, "x2", "t");
+    position_graph2 = new Graph(50, 250, 100, 220, "x1", "t");
 
-    position_graph3 = new Graph(50, 380, 100, 220, "x1", "t");
+    position_graph3 = new Graph(50, 380, 100, 220, "x2", "t");
 
     magFac1 = new DynamicGraph(50+20+50, 300+10, 250, 220, "X1/Xst", "ω", 0,7,0,10, System.mag_func1 , 255);
     magFac2 = new DynamicGraph(400, 400+50, 300, 220, "X2/Xst", "ω",0, 7,0,10, System.mag_func2,0);
