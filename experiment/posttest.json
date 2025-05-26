@@ -2,38 +2,85 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The response of a system can be reduced by use of isolators and absorbers",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "True",
+        "b": "False"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct, the rigth answer is (a). Isolators are devices that mechanically decouple a system from its surroundings. They reduce the transmission of vibrations or shocks from one part of the system to another. Vibration absorbers, such as tuned mass dampers or tuned liquid dampers, absorb energy from the system’s vibrations. They work by introducing an out-of-phase vibration that cancels the original vibration, effectively reducing its amplitude.",
+        "b": "The rigth answer is (a). Isolators are devices that mechanically decouple a system from its surroundings. They reduce the transmission of vibrations or shocks from one part of the system to another. Vibration absorbers, such as tuned mass dampers or tuned liquid dampers, absorb energy from the system’s vibrations. They work by introducing an out-of-phase vibration that cancels the original vibration, effectively reducing its amplitude."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "A vibration absorber _____________",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Increases the amplitude of excitation",
+        "b": "Introduces several new peaks",
+        "c": "Shifts natural frequency away from excitation frequency",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The right answer is (c). A vibration absorber is used to reduce the amplitude of excitation, not to increase the amplitude.",
+        "b": "The right answer is (c). A vibration absorber doesn't introoduced several new peaks. It is used to reduce the amplitude of peaks.",
+        "c": "Correct, the right answer is (c). A vibration absorber is used to reduce the amplitude of excitation by shifting natural frequency of system away from excitation frequency. It achieves this by tuning its oscillation frequency to be close to the system’s resonant frequency. When the system vibrates at its resonant frequency, the absorber introduces an out-of-phase vibration that cancels the original vibration, effectively reducing its amplitude.",
+        "d": "The right answer is (c). A vibration absorber is used to reduce the amplitude of excitation by shifting natural frequency of system away from excitation frequency. " 
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A vibration absorber and the main mass contribute to:",
+      "answers": {
+        "a": "1 DOF system",
+        "b": "2 DOF system",
+        "c": "Multiple DOF system",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "The right answer is (b). A vibration absorber and the main mass together contribute to a 2 DOF (two-degree-of-freedom) system. In this configuration, the main mass and the absorber each have their own natural frequencies, and their interactions affect the overall system behavior.",
+        "b": "Correct, the right answer is (b). A vibration absorber and the main mass together contribute to a 2 DOF (two-degree-of-freedom) system. In this configuration, the main mass and the absorber each have their own natural frequencies, and their interactions affect the overall system behavior.",
+        "c": "The right answer is (b). A vibration absorber and the main mass together contribute to a 2 DOF (two-degree-of-freedom) system. In this configuration, the main mass and the absorber each have their own natural frequencies, and their interactions affect the overall system behavior.",
+        "d": "The right answer is (b). A vibration absorber and the main mass together contribute to a 2 DOF (two-degree-of-freedom) system. In this configuration, the main mass and the absorber each have their own natural frequencies, and their interactions affect the overall system behavior."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A vibration absorber is tuned to:",
+      "answers": {
+        "a": "One particular frequency",
+        "b": "A wide range of frequencies",
+        "c": "Both a and b",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). A vibration absorber is tuned to one particular frequency to absorb and reduce the vibration. Its design ensures that it resonates at a specific frequency, allowing it to effectively reduce vibrations at that frequency.",
+        "b": "The right answer is (a). A vibration absorber is tuned to one particular frequency to absorb and reduce the vibration. Its design ensures that it resonates at a specific frequency, allowing it to effectively reduce vibrations at that frequency.",
+        "c": "The right answer is (a). A vibration absorber is tuned to one particular frequency to absorb and reduce the vibration. Its design ensures that it resonates at a specific frequency, allowing it to effectively reduce vibrations at that frequency.",
+        "d": "The right answer is (a). A vibration absorber is tuned to one particular frequency to absorb and reduce the vibration. Its design ensures that it resonates at a specific frequency, allowing it to effectively reduce vibrations at that frequency."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "A vibration absorber is designed for frequency &omega;, what is the steady state amplitude of machine at &omega; ?",
+      "answers": {
+        "a": "Infinity",
+        "b": "Zero",
+        "c": "Cannot be calculated",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "The right answer is (b). If the steady-state amplitude of a machine becomes infinity, it indicates that the system is experiencing resonance. Resonance occurs when the excitation frequency matches the natural frequency of the system.",
+        "b": "Correct, the right answer is (b). The steady-state amplitude of the machine at its designed frequency ω is zero because the vibration absorber effectively cancels out the vibrations at that specific frequency.",
+        "c": "The right answer is (b). The steady-state amplitude of the machine at its designed frequency ω is zero because the vibration absorber effectively cancels out the vibrations at that specific frequency.",
+        "d": "The right answer is (b). The steady-state amplitude of the machine at its designed frequency ω is zero because the vibration absorber effectively cancels out the vibrations at that specific frequency."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }

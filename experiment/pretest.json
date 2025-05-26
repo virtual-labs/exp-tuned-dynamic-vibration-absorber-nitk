@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Among the following, identify the source of vibration, ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Foundation of a machine",
+        "b": "Unbalance in the machine",
+        "c": "Both a and b",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The right answer is (b). Foundation of a machine is used to absorb the vibrations produced by the machine and give support for machine. It cannot be a source of vibration.",
+        "b": "Correct, the right answer is (b). Any unbalance mass can cause vibration in the machine. It can be either harmonic or chaotic.",
+        "c": "The right answer is (b). Foundation of a machine is used to absorb the vibrations produced by the machine and give support for machine. It cannot be a source of vibration. Any unbalance mass can cause vibration in the machine. It can be either harmonic or chaotic.",
+        "d": "The right answer is (b). Any unbalance mass can cause vibration in the machine. It can be either harmonic or chaotic."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Among the following, what are the ways to reduce Vibrations",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Lubrication",
+        "b": "Force balancing",
+        "c": "Vibrartion absorbers",
+        "d": "All the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The right answer is (d). Lubricating on joints can reduce vibration. Also, Force balancing (balancing the unbalanced force by giving additional mass) and vibration absorbers can be used to reduce vibration.",
+        "b": "The right answer is (d). Force balancing is a method of balancing the unbalanced force by giving additional mass to the system to reduce the vibrations. Also, Lubricating on joints and Vibration absorbers can reduce vibrations.",
+        "c": "The right answer is (d). Vibration absorbers are a device used in system to absorb the vibrational energy, therfore reducing the vibration. Also, Force balancing (balancing the unbalanced force by giving additional mass) and Lubrication can also reduce vibrations.",
+        "d": "Correct, the right answer is (d). Lubricating on joints can reduce vibration. Force balancing is a method of balancing the unbalanced force by giving additional mass to the system to reduce the vibrations. Vibration absorbers are a device used in system to absorb the vibrational energy, therfore reducing the vibration."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Passive Vibration Absorber isolate:",
+      "answers": {
+        "a": "Low seismic Frequencies",
+        "b": "High seismic frequency",
+        "c": "None of the above",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). A Passive Vibration Absorber isolates low seismic frequencies. It’s designed to reduce vibrations by absorbing energy from the system.",
+        "b": "The right answer is (a). Band-pass filters allow a specific range of frequencies to pass through while attenuating others. They are commonly used to suppress high-frequency noise and isolate the usable seismic reflection energy within a bandwidth (typically around 10 to 70 Hz).",
+        "c": "The right answer is (a). A Passive Vibration Absorber isolates low seismic frequencies.",
+        "d": "The right answer is (a). A Passive Vibration Absorber isolates low seismic frequencies."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Active Vibration Absorber isolate:",
+      "answers": {
+        "a": "Low seismic Frequencies",
+        "b": "High seismic frequency",
+        "c": "Both a and b",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "The right answer is (c). Active vibration absorber doesn't only isolate low seismic frequencies but also isolate high seismic frequencies.",
+        "b": "The right answer is (c). Active vibration absorber doesn't only isolate high seismic frequencies but also isolate low seismic frequencies.",
+        "c": "Correct, the right answer is (c). An active vibration absorber is a device designed to reduce the amplitude of vibrations in a mechanical system. When the system vibrates at its resonant frequency, the absorber absorbs energy and introduces an out-of-phase vibration that cancels the original vibration. This effectively reduces the amplitude of vibrations.",
+        "d": "The right answer is (c). Active vibration absorber can isolate high seismic frequencies and isolate low seismic frequencies."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "From the following identify a vibration absorber:",
+      "answers": {
+        "a": "Houdaille Damper",
+        "b": "Torsional vibration absorber",
+        "c": "Centrifugal pendulum absorber",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "The right answer is (d). Houdaille Damper is Used to dampen torsional vibrations in automotive engines. Torsional Vibration Absorber is Specifically designed to reduce torsional vibrations in rotating machinery. Centrifugal Pendulum Absorber is Used to mitigate vibrations in engines and other mechanical systems.",
+        "b": "The right answer is (d). Torsional Vibration Absorber is Specifically designed to reduce torsional vibrations in rotating machinery. Centrifugal Pendulum Absorber is Used to mitigate vibrations in engines and other mechanical systems. Houdaille Damper is Used to dampen torsional vibrations in automotive engines.",
+        "c": "The right answer is (d). Centrifugal Pendulum Absorber is Used to mitigate vibrations in engines and other mechanical systems. Torsional Vibration Absorber is Specifically designed to reduce torsional vibrations in rotating machinery. Houdaille Damper is Used to dampen torsional vibrations in automotive engines.",
+        "d": "Correct, the right answer is (d). Houdaille Damper is Used to dampen torsional vibrations in automotive engines. Torsional Vibration Absorber is Specifically designed to reduce torsional vibrations in rotating machinery. Centrifugal Pendulum Absorber is Used to mitigate vibrations in engines and other mechanical systems."
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
     }
   ]
 }
